@@ -1,7 +1,9 @@
 codeunit 50200 "BSCL Subscriber Store"
 {
     var
+#pragma warning disable AA0470
         OnDeleteBookErr: Label 'You are not allowed to delete %1 %2 because it is liked by one or mor customers';
+#pragma warning restore AA0470
 
     [EventSubscriber(ObjectType::Table, Database::"BSB Book", 'OnBeforeDeleteBook', '', true, true)]
     local procedure OnBeforeDeleteBook(Rec: Record "BSB Book"; var Handled: Boolean)
