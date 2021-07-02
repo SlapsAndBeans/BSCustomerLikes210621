@@ -1,0 +1,33 @@
+{
+  "id": "097848fc-9a61-41f9-9f1b-a7601d220496",
+  "name": "Customer Likes 210621",
+  "publisher": "get&use Academy GmbH",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "Images/guA_Logo.png",
+  "dependencies": [
+    {
+      "id": "7af441b0-6a31-4802-8c36-5085bf2a7616",
+      "name": "Bokstore Base 210621",
+      "publisher": "get&use Academy GmbH",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://BSCustomerLikes210621.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
